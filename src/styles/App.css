@@ -1,18 +1,121 @@
-* {
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
-  background: white;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-.Header {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-top: 20px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
-.Header h1 {
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #CCCCCC;
+}
+
+.header {
+  background: linear-gradient(180deg, #182523 19.82%, #1D2B28 59.45%, #344946 115.3%);
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.header .title {
+  padding-left: 10vw;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header .title hr {
+  width: 11vw;
+  border: none;
+  border-top: 1px solid white;
+}
+.header .title h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.626rem;
+  letter-spacing: 0.14em;
+}
+.header .title h3 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1.5em;
+}
+.header .navMenu {
+  padding-right: 15vw;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .navMenu div {
+  padding-left: 7vw;
+}
+.header .navMenu hr {
+  width: 5vw;
+  color: grey;
+}
+.header .navMenu p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  font-size: 1.25rem;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.16em;
 }
 
 /*# sourceMappingURL=App.css.map */
