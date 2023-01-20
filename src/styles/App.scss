@@ -1,17 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-    background: white;
+    background-color: #CCCCCC;
 }
 
-.Header {
+.Footer {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding-top: 20px;
-
-    h1 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 50px;
-    }
+    position:absolute;
+    width:100vw;
+    height:15vh;
+    background: linear-gradient(180deg, #353535 0.01%, #CCCCCC 95.31%, rgba(204, 204, 204, 0) 100%);
+    transform: rotate(-180deg);
+    bottom:0;
 }
