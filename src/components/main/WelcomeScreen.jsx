@@ -1,4 +1,5 @@
 import React from 'react';
+import './WelcomeScreen.scss'
 
 const WelcomeScreen = () => {
     const consoleMessage = function (){return console.log("Подобрать фильм - КЛИК");}

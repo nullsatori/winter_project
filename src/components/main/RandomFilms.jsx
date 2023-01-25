@@ -1,7 +1,7 @@
 import React from 'react';
 import drivePoster from '../main/img/drive_poster500x500.png';
 import nextMovie from '../main/img/next_movie200x500.png'
-import button from '../main/img/button.png'
+import './RandomFilms.scss'
 
 const RandomFilms = () => {
     const consoleMessage = function () {return console.log('next')};
